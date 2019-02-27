@@ -8,8 +8,10 @@ from keras.layers import Dense, Flatten, Reshape, InputLayer
 from keras.regularizers import L1L2  # regularizers 正则
 import matplotlib.pyplot as plt
 
-'''经过千辛万苦的调bug终于可以训练了！！
-训练10次没什么样子，训练100次终于有点样子了
+'''
+使用gan生成手写数字
+经过千辛万苦的调bug终于可以训练了！！
+训练10次没什么效果，训练100次终于有点效果了
 训练100次大概要几十分钟'''
 
 # 设置路径
